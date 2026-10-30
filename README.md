@@ -40,7 +40,8 @@ All companies, people, and numbers in test data are fictional.
 
 Contact: digitalpromohub.support@gmail.com
 
-## Paid tiers
+## Buy
 
-- **Pro ($39):** https://payhip.com/b/b1jJq
-- **Team ($99):** https://payhip.com/b/bhLlp
+- Pro ($39): https://payhip.com/b/b1jJq
+- Team ($99): https://payhip.com/b/bhLlp
+- Lite (free): https://github.com/miketusa-ctrl/evalkit-lite
