@@ -1,0 +1,17 @@
+id: correctness
+name: "Correctness"
+measures: "Whether the answer is factually right given the case context and resolves the request."
+scale:
+  1: "Wrong or invented facts; harmful misinformation"
+  2: "Mostly wrong or misses the core request"
+  3: "Partly right; a key fact missing or vague"
+  4: "Right and useful; minor omission"
+  5: "Fully right, complete, actionable next step"
+pass_threshold:
+  pass: 4
+  partial: 3
+  fail: 2
+examples:
+  pass: "Order CP-4471 is delayed in transit; I can open a carrier trace now."
+  partial: "Your order shipped and is on the way."
+  fail: "It will arrive tomorrow (invented)."

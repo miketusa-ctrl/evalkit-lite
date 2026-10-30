@@ -1,0 +1,17 @@
+id: policy_adherence
+name: "Policy adherence"
+measures: "Whether the answer follows the business policy in context, without inventing exceptions or rules."
+scale:
+  1: "Violates policy or invents exceptions"
+  2: "Bends policy or misstates it"
+  3: "Follows policy but explains poorly"
+  4: "Follows and explains policy"
+  5: "Follows policy, explains clearly, offers allowed alternatives"
+pass_threshold:
+  pass: 4
+  partial: 3
+  fail: 2
+examples:
+  pass: "That's past our 30-day window, so I can't refund it, but I can check warranty for defects."
+  partial: "Policy is 30 days, sorry."
+  fail: "I'll make an exception and refund you."

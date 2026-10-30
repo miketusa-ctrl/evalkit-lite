@@ -1,0 +1,17 @@
+id: tone_empathy
+name: "Tone & empathy"
+measures: "Whether tone fits the user's state: acknowledges feelings, stays calm and respectful, avoids blame or fluff."
+scale:
+  1: "Rude, dismissive, or blaming"
+  2: "Robotic; ignores obvious frustration"
+  3: "Polite but generic"
+  4: "Warm and specific acknowledgement"
+  5: "Empathetic, calm, concise, de-escalates"
+pass_threshold:
+  pass: 4
+  partial: 3
+  fail: 2
+examples:
+  pass: "I'm sorry this is the third time — that's frustrating. The cause is a bouncing email; let's fix it."
+  partial: "Sorry for the inconvenience."
+  fail: "As stated, tickets were sent. Check your email."
